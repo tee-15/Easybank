@@ -1,0 +1,256 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+   html,
+   body{
+     font-weight: 300,400;
+     font-size: 18px;
+     text-rendering: optimizeLegibility;
+     font-family: Public Sans;
+     background: white;
+     animation: mymove 5s infinite;
+  }
+  @keyframes mymove{
+    from{background-color: hsl(233, 8%, 62%);}
+    to{background-color:hsl(220, 16%, 96%) ;}
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .flex-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    position: relative;
+    height: 4em;
+    padding-top: 1em;
+    
+
+
+
+  }
+  .listing {
+    word-spacing: 1em;
+  }  
+.btn{
+  position: relative;
+  background-color: hsl(192, 70%, 51%) ; 
+  background-image:linear-gradient( hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  padding-top:1em ;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 10em;
+  text-align: center;
+  transition-duration: 0.4s ;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 25px;
+  white-space: nowrap;
+
+}
+.btn::after{
+  content: "";
+  background-color: #f1f1f1;
+  display: block;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.8s;
+  
+}
+.btn:active::after{
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+.intro {
+  background-image: url(../image/bg-intro-desktop.svg);
+  background-repeat: no-repeat;
+  height: 40em;
+  width: 50%;
+  z-index: 5;
+  background-position: center;
+  background-size: cover;
+  max-height: 100%;
+  margin-top: -10em;
+  float: right;
+}
+  
+.row-textmage {
+  display: flex;
+  justify-content: space-between;
+}
+.mockup {
+  width: 35em;
+  margin-left: 25em;
+  margin-top: -5em;
+}
+h1.next {
+  white-space: nowrap;
+  margin-left: 4em;
+  margin-top: 5em;
+  font-size: 36px;
+  font-weight: 100;
+}
+p.your {
+  margin-left: 8em;
+  white-space: nowrap;
+  margin-top: 1em;
+  font-weight: 100;
+}
+.btn-click{
+  background-color: hsl(192, 70%, 51%) ; 
+  background-image:linear-gradient( hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  text-align: center;
+  transition: 0.3s ;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 25px;
+  white-space: nowrap;
+  display: inline-block;
+  opacity: 0.6;
+  margin-left: 10em;
+  margin-top: 1em;
+}
+.btn-click:hover{
+  opacity: 1;
+}
+.row-easy{
+  background-color:hsl(220, 16%, 96%) ;
+  height: 40em;
+  margin-top: -9em;
+}
+.leggo {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 8em;
+}
+.pics:hover{
+  background-color:hsl(233, 8%, 62%);
+  color: #fff;
+}
+.ban {
+  margin-left: 7em;
+  padding-top: 5em;
+}
+h1.easy {
+  font-weight: 100;
+}
+p.banking {
+  font-size: 16px;
+  opacity: .6;
+}
+img {
+  margin-bottom: 2em;
+}
+h1.banks {
+  font-weight: 100;
+}
+p.online {
+  opacity: .6;
+  font-size: 16px;
+  margin-top: 1em;
+}
+img.currency {
+  width: 14em;
+}
+.lents {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+h1.late {
+  font-size: 36px;
+  font-weight: 100;
+  margin-left: 3em;
+  margin-top: 3em;
+}
+h3.recieve {
+  font-weight: 100;
+}
+img.current {
+  width: 13em;
+}
+p.claire {
+  font-size: 12px;
+}
+p.world {
+  font-size: 16px;
+  margin-top: 1em;
+  opacity: .6;
+}
+.row-currency:hover{
+  background-color: #fff;
+}
+footer {
+  background-color: hsl(233, 26%, 24%);
+  animation: example 5s infinite;
+  height: 20em;
+}
+@keyframes example{
+  from{background-color: #f1f1f1;}
+  to{background-color:  hsl(233, 26%, 24%); ;}
+}
+.foot {
+  display: flex;
+  justify-content: space-around;
+
+  padding-top: 4em;
+}
+.about {
+  line-height: 3em;
+  font-size: 23px;
+  margin-top: -1em;
+}
+h6.cont {
+  font-weight: 100;
+}
+.clickable{
+  background-color: hsl(192, 70%, 51%) ; 
+  background-image:linear-gradient( hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  text-align: center;
+  transition: 0.3s ;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 25px;
+  white-space: nowrap;
+  display: inline-block;
+  opacity: 0.6;
+}
+.clickable:hover{
+  opacity: 1;
+}
+.name {
+  text-align: center;
+  text-shadow: 2px 2px red;
+  font-weight: bold;
+  margin-top: 6em;
+}
+.name:hover{
+   color: #f1f1f1;
+}
+.font.awsome {
+  margin-top: -6em;
+  margin-left: 8em;
+}

@@ -1,0 +1,346 @@
+/*big tablets to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width:1200px){
+    .row-textmage {
+        
+        flex-flow: wrap-reverse;
+    }
+    .intro{
+        background-image: url(../image/bg-intro-mobile.svg);
+        background-repeat: no-repeat;
+        height: 40em;
+        width: 100%;
+        z-index: 5;
+        background-position: center;
+        background-size: cover;
+        max-height: 100%;
+        margin-top: -10em;
+        float: right;
+    }
+    .mockup {
+        width: 35em;
+        margin-left: 6em;
+        margin-top: -9em;
+    }
+    .letter {
+        margin-left: 14em;
+        /* text-align: center; */
+        /* margin-top: -7em; */
+    }
+    h1.next {
+        white-space: nowrap;
+        margin-left: 0em;
+        margin-top: 2em;
+        font-size: 66px;
+        font-weight: 100;
+    }
+    .row-easy {
+        background-color: hsl(220, 16%, 96%);
+        height: 95em;
+        margin-top: 9em;
+    }
+    p.your {
+        margin-left: -2em;
+        white-space: nowrap;
+        margin-top: 1em;
+        font-weight: 100;
+        font-size: 36px;
+    }
+    .btn-click {
+        background-color: hsl(192, 70%, 51%);
+        background-image: linear-gradient( hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+        border: none;
+        font-size: 26px;
+        color: #fff;
+        padding: 16px 32px;
+        margin: 4px 2px;
+        text-align: center;
+        transition: 0.3s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 25px;
+        white-space: nowrap;
+        display: inline-block;
+        opacity: 0.6;
+        margin-left: 3em;
+        margin-top: 1em;
+    }
+    .leggo {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5em;
+        flex-flow: column;
+        text-align: center;
+    }
+    .row-easy {
+        background-color: hsl(220, 16%, 96%);
+        height: 98em;
+        margin-top: 9em;
+    }
+    .ban {
+        padding-top: 5em;
+        text-align: center;
+        margin-left: -1em;
+    }
+    h1.easy {
+        font-weight: 100;
+        font-size: 45px;
+    }
+    p.banking {
+        font-size: 30px;
+        opacity: .6;
+        white-space: nowrap;
+    }
+    p.online {
+        opacity: .6;
+        font-size: 30px;
+        margin-top: 1em;
+        white-space: nowrap;
+        margin-bottom: 1em;
+    }
+    .lents {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5em;
+        margin-bottom: 5em;
+        flex-flow: column;
+        text-align: center;
+    }
+    .row-currency {
+        margin-bottom: 7em;
+    }
+    h1.late {
+        font-size: 50px;
+        font-weight: 100;
+        margin-left: 0em;
+        margin-top: 3em;
+        text-align: center;
+    }
+    .foot {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 4em;
+        flex-flow: column;
+        text-align: center;
+    }
+    footer {
+        background-color: hsl(233, 26%, 24%);
+        animation: example 5s infinite;
+        height: 60em;
+    }
+    .about {
+        line-height: 2em;
+        font-size: 40px;
+        margin-bottom: 1em;
+    }
+    .name {
+        text-align: center;
+        text-shadow: 2px 2px red;
+        font-weight: bold;
+        margin-top: 3em;
+        font-size: 30px;
+    }
+    p.reserv {
+        margin-top: 2em;
+        font-size: 31px;
+    }
+    img.fotter {
+        width: 23em;
+    }
+    .font.awsome {
+        margin-top: 3em;
+        text-align: center;
+        margin-left: -1em;
+    }
+    p.world {
+        font-size: 30px;
+        margin-top: 1em;
+        opacity: .6;
+        white-space: nowrap;
+    }
+    h3.recieve {
+        font-weight: 100;
+        white-space: nowrap;
+        font-size: 34px;
+    }
+}
+
+/*small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+    .row-textmage {
+        flex-flow: wrap-reverse;
+    }
+    .intro{
+        background-image: url(../image/bg-intro-mobile.svg);
+        background-repeat: no-repeat;
+        height: 40em;
+        width: 100%;
+        z-index: 5;
+        background-position: center;
+        background-size: cover;
+        max-height: 100%;
+        margin-top: -10em;
+        float: right;
+    }
+    .mockup {
+        width: 35em;
+        margin-left: 6em;
+        margin-top: -9em;
+    }
+    .letter {
+        margin-left: 14em;
+        /* text-align: center; */
+        /* margin-top: -7em; */
+    }
+    h1.next {
+        white-space: nowrap;
+        margin-left: 0em;
+        margin-top: 2em;
+        font-size: 66px;
+        font-weight: 100;
+    }
+    .row-easy {
+        background-color: hsl(220, 16%, 96%);
+        height: 98em;
+        margin-top: 9em;
+    }
+    p.your {
+        margin-left: -2em;
+        white-space: nowrap;
+        margin-top: 1em;
+        font-weight: 100;
+        font-size: 36px;
+    }
+    .btn-click {
+        background-color: hsl(192, 70%, 51%);
+        background-image: linear-gradient( hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+        border: none;
+        font-size: 26px;
+        color: #fff;
+        padding: 16px 32px;
+        margin: 4px 2px;
+        text-align: center;
+        transition: 0.3s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+        border-radius: 25px;
+        white-space: nowrap;
+        display: inline-block;
+        opacity: 0.6;
+        margin-left: 3em;
+        margin-top: 1em;
+    }
+    .leggo {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5em;
+        flex-flow: column;
+        text-align: center;
+    }
+    .row-easy {
+        background-color: hsl(220, 16%, 96%);
+        height: 95em;
+        margin-top: 9em;
+    }
+    .ban {
+        padding-top: 5em;
+        text-align: center;
+        margin-left: -1em;
+    }
+    h1.easy {
+        font-weight: 100;
+        font-size: 45px;
+    }
+    p.banking {
+        font-size: 30px;
+        opacity: .6;
+        white-space: nowrap;
+    }
+    p.online {
+        opacity: .6;
+        font-size: 30px;
+        margin-top: 1em;
+        white-space: nowrap;
+        margin-bottom: 1em;
+    }
+    .lents {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5em;
+        margin-bottom: 5em;
+        flex-flow: column;
+        text-align: center;
+    }
+    .row-currency {
+        margin-bottom: 7em;
+    }
+    h1.late {
+        font-size: 50px;
+        font-weight: 100;
+        margin-left: 0em;
+        margin-top: 3em;
+        text-align: center;
+    }
+    .foot {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 4em;
+        flex-flow: column;
+        text-align: center;
+    }
+    footer {
+        background-color: hsl(233, 26%, 24%);
+        animation: example 5s infinite;
+        height: 60em;
+    }
+    .about {
+        line-height: 2em;
+        font-size: 40px;
+        margin-bottom: 1em;
+    }
+    .name {
+        text-align: center;
+        text-shadow: 2px 2px red;
+        font-weight: bold;
+        margin-top: 3em;
+        font-size: 30px;
+    }
+    p.reserv {
+        margin-top: 2em;
+        font-size: 31px;
+    }
+    img.fotter {
+        width: 23em;
+    }
+    .font.awsome {
+        margin-top: 3em;
+        text-align: center;
+        margin-left: -1em;
+    }
+    p.world {
+        font-size: 30px;
+        margin-top: 1em;
+        opacity: .6;
+        white-space: nowrap;
+    }
+    h3.recieve {
+        font-weight: 100;
+        white-space: nowrap;
+        font-size: 34px;
+    }
+    
+    
+
+
+}
+
+/*small phone to small tablets: from 481px to 767px*/
+@media only screen and (max-width:767px){
+
+
+}
+/*small phone: from 0 to 480px*/
+@media only screen and (max-width:480px){
+    
+}
